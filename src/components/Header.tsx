@@ -18,7 +18,7 @@ export default function Header() {
           <div className="absolute top-1/2 left-[10%] w-4/5 h-0.5 bg-gradient-to-r from-transparent via-rose-400 to-transparent rounded-full transform -translate-y-1/2" />
         </div>
 
-        <h1 className="text-5xl font-bold mb-3 tracking-tight">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-3 tracking-tight">
           MICROPIGMENTAÇÃO
         </h1>
 

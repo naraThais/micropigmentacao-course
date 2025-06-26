@@ -3,34 +3,32 @@ import type { PaymentOption } from "@/types";
 
 const paymentOptions: PaymentOption[] = [
   {
-    title: "💳 À Vista",
+    title: "À Vista",
     description: "Débito/Crédito: R$ 1.950,00",
   },
   {
-    title: "💸 Dinheiro/PIX",
+    title: "Dinheiro/PIX",
     description: "R$ 1.800,00",
-    highlight: "💰 (Desconto de R$ 150,00)",
+    highlight: "(Desconto de R$ 150,00)",
   },
   {
-    title: "📊 Parcelado",
+    title: "Parcelado",
     description: "2x a 10x sem juros",
-    highlight: "💳 no cartão de crédito",
+    highlight: "no cartão de crédito",
   },
 ];
 
 export default function PriceSection() {
   return (
     <Card className="text-center my-10">
-      <div className="text-5xl font-bold text-rose-600 mb-3">
-        💰 R$ 2.200,00
-      </div>
+      <div className="text-5xl font-bold text-rose-600 mb-3">R$ 2.200,00</div>
 
       <div className="text-gray-600 mb-5 space-y-1">
         <p>
-          <strong>🔒 Reserva:</strong> R$ 250,00 (abatido do valor total)
+          <strong>Reserva:</strong> R$ 250,00 (abatido do valor total)
         </p>
         <p>
-          <strong>💳 Restante:</strong> R$ 1.950,00
+          <strong>Restante:</strong> R$ 1.950,00
         </p>
       </div>
 

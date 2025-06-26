@@ -2,31 +2,31 @@ import Card from "./ui/Card";
 
 const contentCards = [
   {
-    title: "✨ Técnica Shadow Line",
+    title: "Técnica Shadow Line",
     content: [
       "Aprenda a técnica mais requisitada no mercado! Combinação perfeita entre fios finos e delicados no Tebori com esfumado para Shadow Line no Dermógrafo.",
       "Faça fio a fio ou shadowline nas suas clientes!",
     ],
   },
   {
-    title: "📚 Conteúdo Completo",
+    title: "Conteúdo Completo",
     content: [
-      "🔬 Cicatrização e estrutura da pele",
-      "🎨 Pigmentologia e colorimetria",
-      "⚡ Técnicas Tebori e Dermógrafo",
-      "🎯 Treinos práticos essenciais",
-      "📖 Teoria completa para dominar a micropigmentação",
+      "Cicatrização e estrutura da pele",
+      "Pigmentologia e colorimetria",
+      "Técnicas Tebori e Dermógrafo",
+      "Treinos práticos essenciais",
+      "Teoria completa para dominar a micropigmentação",
     ],
   },
   {
-    title: "🎁 O que está Incluso",
+    title: "O que está Incluso",
     content: [
-      "📋 Apostila exclusiva do curso",
-      "🛠️ Material para aula prática",
-      "☕ Coffee Break incluso",
-      "🏆 Certificado personalizado",
-      "📸 Fotos para divulgação",
-      "💬 Auxílio vitalício",
+      "Apostila exclusiva do curso",
+      "Material para aula prática",
+      "Coffee Break incluso",
+      "Certificado personalizado",
+      "Fotos para divulgação",
+      "Auxílio vitalício",
     ],
   },
 ];

@@ -1,7 +1,7 @@
 import { Sparkles, Palette, Microscope, Eye } from "lucide-react";
 import Card from "./ui/Card";
 import type { SkillItem, Achievement } from "@/types";
-
+import Image from "next/image";
 const achievements: Achievement[] = [
   { number: "500+", text: "Clientes Atendidas" },
   { number: "200+", text: "Alunas Formadas" },
@@ -43,9 +43,15 @@ export default function ProfessionalSection() {
     <Card className="text-center my-10">
       {/* Perfil */}
       <div className="flex items-center justify-center gap-10 mb-10 flex-wrap">
-        <div className="w-36 h-36 rounded-full gradient-rose-light border-4 border-rose-400 relative overflow-hidden">
-          <div className="w-full h-full flex items-center justify-center gradient-rose text-white text-5xl font-light">
-            MS
+        <div className="w-100 h-100 rounded-full relative overflow-hidden">
+          <div className="w-full h-full flex items-center justify-center text-5xl font-light">
+            <Image
+              src="/Moça.png" // Caminho relativo à pasta 'public'
+              alt="Logo"
+              width={950}
+              height={950}
+              priority
+            />
           </div>
         </div>
 

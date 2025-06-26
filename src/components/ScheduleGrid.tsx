@@ -2,25 +2,25 @@ import type { DaySchedule } from "@/types";
 
 const scheduleData: DaySchedule[] = [
   {
-    day: "📅 Dia 1",
+    day: "Dia 1",
     items: [
-      { time: "09:00", activity: "📖 Início da aula teórica" },
-      { time: "12:00", activity: "🍽️ Almoço no Shopping São José" },
-      { time: "13:00", activity: "📚 Teoria e treinos" },
-      { time: "15:30", activity: "☕ Coffee Break" },
-      { time: "16:00", activity: "✏️ Início dos treinos Tebori" },
-      { time: "19:00", activity: "🏁 Finalização do primeiro dia" },
+      { time: "09:00", activity: "Início da aula teórica" },
+      { time: "12:00", activity: "Almoço no Shopping São José" },
+      { time: "13:00", activity: "Teoria e treinos" },
+      { time: "15:30", activity: "Coffee Break" },
+      { time: "16:00", activity: "Início dos treinos Tebori" },
+      { time: "19:00", activity: "Finalização do primeiro dia" },
     ],
   },
   {
-    day: "📅 Dia 2",
+    day: "Dia 2",
     items: [
-      { time: "09:00", activity: "✨ Demonstração da Shadow Line" },
-      { time: "11:40", activity: "🍽️ Almoço no Shopping São José" },
-      { time: "12:40", activity: "⚡ Treinos no Dermógrafo" },
-      { time: "15:00", activity: "☕ Coffee Break" },
-      { time: "15:30", activity: "👥 Início da Modelo da Aluna" },
-      { time: "19:00", activity: "🏆 Finalização e entrega de certificado" },
+      { time: "09:00", activity: "Demonstração da Shadow Line" },
+      { time: "11:40", activity: "Almoço no Shopping São José" },
+      { time: "12:40", activity: "Treinos no Dermógrafo" },
+      { time: "15:00", activity: "Coffee Break" },
+      { time: "15:30", activity: "Início da Modelo da Aluna" },
+      { time: "19:00", activity: "Finalização e entrega de certificado" },
     ],
   },
 ];
