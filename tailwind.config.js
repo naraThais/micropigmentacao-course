@@ -23,9 +23,7 @@ module.exports = {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
-      animation: {
-        float: "float 20s infinite linear",
-      },
+      animation: {},
       keyframes: {
         float: {
           "0%": { transform: "translateX(-50px) translateY(-50px)" },
