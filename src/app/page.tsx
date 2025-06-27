@@ -5,7 +5,8 @@ import ToolsSection from "@/components/ToolsSection";
 import ContentGrid from "@/components/ContentGrid";
 import ScheduleGrid from "@/components/ScheduleGrid";
 import PriceSection from "@/components/PriceSection";
-
+import Footer from "@/components/Footer";
+import RequirementsBox from "@/components/RequirementsBox";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-rose-light to-rose-100">
@@ -16,6 +17,8 @@ export default function Home() {
         <ContentGrid />
         <ScheduleGrid />
         <PriceSection />
+        <RequirementsBox />
+        <Footer />
       </Container>
     </main>
   );
