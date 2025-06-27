@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="text-center p-10 gradient-rose text-white rounded-3xl mt-10">
       <div className="contact-info mb-5">
-        <strong className="text-xl">Studio Permanent Make-up Artist</strong>
+        <strong className="text-xl">Studio Beauty Center</strong>
       </div>
 
       <div className="text-sm opacity-90 leading-relaxed space-y-2">
@@ -13,7 +13,7 @@ export default function Footer() {
 
       <div className="mt-6 pt-4 border-t border-white">
         <p className="text-xs opacity-75">
-          © 2024 Studio Permanent Make-up Artist - Todos os direitos reservados
+          © 2024 Studio Beauty Center - Todos os direitos reservados
         </p>
       </div>
     </footer>

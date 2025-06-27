@@ -5,7 +5,7 @@ import Image from "next/image";
 const achievements: Achievement[] = [
   { number: "500+", text: "Clientes Atendidas" },
   { number: "200+", text: "Alunas Formadas" },
-  { number: "5", text: "Anos de Experiência" },
+  { number: "5+", text: "Anos de Experiência" },
 ];
 
 const skills: SkillItem[] = [
@@ -46,10 +46,11 @@ export default function ProfessionalSection() {
         <div className="w-100 h-100 rounded-full relative overflow-hidden">
           <div className="w-full h-full flex items-center justify-center text-5xl font-light">
             <Image
-              src="/Moça.png" // Caminho relativo à pasta 'public'
+              src="/moçaa.png" // Caminho relativo à pasta 'public'
               alt="Logo"
-              width={950}
-              height={950}
+              width={1000}
+              height={1000}
+              className="mt-80 scale-x-[-1]"
               priority
             />
           </div>
@@ -57,10 +58,10 @@ export default function ProfessionalSection() {
 
         <div className="max-w-md">
           <h2 className="text-4xl font-semibold text-rose-600 mb-3">
-            Mayara Schrodi
+            Nany Farias
           </h2>
           <p className="text-xl font-light mb-5 opacity-95 transform transition-all duration-1000 ease-out delay-300">
-            Técnica Shadow Line{" "}
+            Especialista Cosmetologia{" "}
           </p>
           <p className="text-gray-600 text-lg leading-relaxed">
             Especialista em Micropigmentação com anos de experiência

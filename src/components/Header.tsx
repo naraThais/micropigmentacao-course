@@ -118,9 +118,9 @@ export default function Header() {
           }`}
         >
           <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-xs">
+            <Badge>Colorimetria</Badge>
             <Badge>Shadow Line Technique</Badge>
-            <Badge>Shadow Line Technique</Badge>
-            <Badge>Shadow Line Technique</Badge>
+            <Badge>Anatomia</Badge>
           </div>
         </div>
       </div>
