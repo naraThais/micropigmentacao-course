@@ -59,6 +59,9 @@ export default function ProfessionalSection() {
           <h2 className="text-4xl font-semibold text-rose-600 mb-3">
             Mayara Schrodi
           </h2>
+          <p className="text-xl font-light mb-5 opacity-95 transform transition-all duration-1000 ease-out delay-300">
+            Técnica Shadow Line{" "}
+          </p>
           <p className="text-gray-600 text-lg leading-relaxed">
             Especialista em Micropigmentação com anos de experiência
             transformando olhares através da técnica Shadow Line. Formação em
