@@ -31,7 +31,7 @@ export default function ScheduleGrid() {
       {scheduleData.map((day, dayIndex) => (
         <div
           key={dayIndex}
-          className="bg-white p-6 rounded-2xl border-l-4 border-rose-400 shadow-md shadow-rose-400/10"
+          className="bg-white p-6 rounded-2xl border-4-4 border-rose-400 shadow-lg shadow-rose-400/20"
         >
           <h3 className="font-semibold text-rose-600 mb-4 text-lg">
             {day.day}
